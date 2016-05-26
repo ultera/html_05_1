@@ -4,5 +4,5 @@
 3. Сверстала кнопку ФБ.
 4. Добавила <form></form>.
 5. Добавила <label> для чекбокса.
-6. Исправила text-decoration: none.
+6. Исправила <code>text-decoration: none</code>.
 
