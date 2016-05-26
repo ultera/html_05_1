@@ -1,0 +1,198 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+    font-family: 'helveticaneuecyrlight';
+    src: url('../fonts/helveticaneuecyr-light-webfont.eot');
+    src: url('../fonts/helveticaneuecyr-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneuecyr-light-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-light-webfont.woff') format('woff'),
+         url('../fonts/helveticaneuecyr-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'helveticaneuecyrlight';
+    src: url('../fonts/helveticaneuecyr-light-webfont.eot');
+    src: url('../fonts/helveticaneuecyr-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneuecyr-light-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-light-webfont.woff') format('woff'),
+         url('../fonts/helveticaneuecyr-light-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+body {
+  font-family: helveticaneuecyrlight, sans-serif, Georgia, Arial;
+}
+.page {
+	width: 1215px;
+	margin: 0 auto;
+  height: 1064px;
+	font-size: 14px;
+	line-height: 2;
+}
+
+/* HEADER */
+header {
+  display: inline-block;
+  width: 760px;
+  height: 36px;
+  padding-left: 455px;
+  background: url('../img/header_pattern.png');
+}
+.menu ul li {
+	display: inline-block;
+  float: left;
+  height: 36px;
+	/*padding: 0 13px 0 13px;*/
+  line-height: 36px;
+  letter-spacing: normal;
+}
+.menu a {
+  display: block;
+  height: 36px;
+  padding: 0 13px 0 13px;
+  color: #60b5ed;
+  text-decoration: none;
+}
+.menu ul li:hover {
+  background: #4eabda;
+  color: white;
+}
+.menu a:hover{
+  color: white;
+}
+.header-2 {
+  /* полоска */
+  display: inline-block;
+  float: left;
+  width: 1px;
+  height: 30px;
+  margin-top: 3px;
+  margin-left: 5px;
+  background: #56a2dc;
+}
+.header-3 {
+  /* флаг */
+  display: inline-block;
+  float: left;
+  width: 30px;
+  height: 36px;
+  margin-left: 15px;
+  background: url('../img/flag.png');
+}
+.header-4 {
+  /* Minhas Ofertas */
+  display: inline-block;
+  float: left;
+  height: 36px;
+  margin-left: 7px;
+}
+.header-4 a{
+  color: #fefefe;
+  line-height: 36px;
+  text-decoration: none;
+}
+.header-5 {
+  /* кнопка */
+  display: inline-block;
+  float: left;
+  width: 191px;
+  height: 36px;
+  margin-left: 15px;
+  color: white;
+  line-height: 36px;
+  background: url('../img/header_button.png');
+}
+.header-5 p {
+  text-align: center;
+}
+.header-5 p a {
+  color: #feffff;
+  text-decoration: none;
+}
+.body-img {
+  margin-top: -9px;
+}
+
+/* FORM */
+.form {
+  position: absolute;
+	top: 249px;
+	left: 50%;
+  width: 560px;
+  height: 613px;
+	margin-left: -280px;
+  color: white;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+.form-header {
+  height: 61px;
+  border-bottom: 2px solid #bac3ae;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 61px;
+}
+/* FACEBOOK link*/
+.form-fb {
+	width: 275px;
+	height: 35px;
+  margin: 37px auto 0;
+	line-height: 35px;
+	border-radius: 5px;
+	background: url('../img/fb-bg.jpg') repeat-x;
+	font-family:'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+}
+.fb-logo {
+	float: left;
+	width: 37px;
+	border-right: 1px solid #1f3d71;
+	font-size: 20px;
+	font-weight: 800;
+}
+.fb-text {
+	float: left;
+	width: 236px;
+	border-left: 1px solid #1f3d71;
+}
+
+/* FORM */
+.form-line {
+  width: 276px;
+  margin: 30px auto 16px;
+  color: #999999;
+  background: url('../img/form_line.png');
+}
+input[type="text"]  {
+  height: 35px;
+  padding-left: 18px;
+  border: none;
+  border-bottom: 1px solid #484948;
+  margin-bottom: 15px;
+  color: #ccc;
+  background: #0f0f0f;
+}
+input[type="text"]:focus {
+	height: 34px;
+  outline: none;
+  border: 1px solid #1e4b76;
+  border-bottom: 1px solid #689bcd;
+  color: white;
+  background: #1b5288;
+  -webkit-box-shadow: 0px 0px 14px 1px #689bcc;
+  -moz-box-shadow: 0px 0px 14px 1px #689bcc;
+  box-shadow: 0px 0px 14px 1px #689bcc;
+}
+.form-button {
+  width: 151px;
+  height: 38px;
+  border: none;
+  margin: 13px 0;
+	cursor: pointer;
+  background: url('../img/form_button.png');
+}
+.form-bottom {
+  font-size: 11px;
+}
